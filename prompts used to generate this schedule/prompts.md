@@ -6,7 +6,7 @@ is android app and ios app part of webapp development
 
 what is the combination of webapp and mobileapp development
 
-how much time will it take to master Cross-Platform Development  if i have 2hr daily to study and practice
+how much time will it take to master Cross-Platform Development if i have 2hr daily to study and practice
 
 can this learning be compressed to 60 days
 

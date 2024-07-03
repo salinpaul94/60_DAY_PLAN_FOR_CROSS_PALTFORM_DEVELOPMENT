@@ -4,6 +4,12 @@ all results should be related developer using ubuntu operating system
 
 How to master Cross-Platform Development using React Native.
 
+```
+Implement for Cross-Platform Development using React Native the task listed between """, 
+"""
+
+""", for each task give me 2 paragraphs explaining the topic, 2 online resources to refer, 3 examples to practice, 3 paragraph explaining each example, 2 online resources to refer, also give me the code that i should use to practice and give the expected output
+```
 
 
 what are the parts of webapp development

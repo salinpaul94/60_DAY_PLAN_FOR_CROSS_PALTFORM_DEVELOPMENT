@@ -1,12 +1,20 @@
 import './App.css';
 
+
+const user = {
+  firstName: 'John',
+  lastName: 'Doe'
+};
+
+const element = (
+  <h1>
+    Hello, {user.firstName} {user.lastName}
+  </h1>
+)
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       <h1>Welcome to My React App</h1>
-      </header>
-    </div>
+    element
   );
 }
 

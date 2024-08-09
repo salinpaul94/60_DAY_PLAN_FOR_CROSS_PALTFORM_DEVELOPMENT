@@ -1,4 +1,5 @@
 import './App.css';
+import Welcome  from './components/welcome';
 
 
 const user = {
@@ -8,6 +9,7 @@ const user = {
 
 const element = (
   <h1>
+    <Welcome name="salin"/> 
     Hello, {user.firstName} {user.lastName}
   </h1>
 )

@@ -1,6 +1,7 @@
 import './App.css';
 import Button from './components/ButtonEventHandling';
 import ColorChangeUseState from './components/ColorChangeUseStage';
+import Form from './components/FormEventHandling';
 import InputFieldEventHandling from './components/InputFieldEventHandling';
 import NameFormUseState from './components/NameFormUseState';
 import TaskListUseState from './components/TaskListUseState';
@@ -14,6 +15,7 @@ const element = (
     <TaskListUseState/>
     <Button/>
     <InputFieldEventHandling/>
+    <Form/>
   </h1>
 )
 

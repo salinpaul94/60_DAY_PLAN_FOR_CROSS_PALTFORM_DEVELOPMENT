@@ -1,21 +1,9 @@
 import './App.css';
-import Welcome  from './components/welcome';
-import Product from './components/product';
-import Counter from './components/counter';
-import Toggle from './components/toggle';
-
-const user = {
-  firstName: 'John',
-  lastName: 'Doe'
-};
+import NameFormUseState from './components/NameFormUseState';
 
 const element = (
   <h1>
-    <Welcome name="salin"/> 
-    Hello, {user.firstName} {user.lastName}
-    <Product name="Gaming Chair" price={299}/>
-    <Counter />
-    <Toggle />
+    <NameFormUseState/>
   </h1>
 )
 

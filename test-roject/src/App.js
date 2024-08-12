@@ -5,6 +5,7 @@ import Form from './components/FormEventHandling';
 import Greeting from './components/GreetingDynamicRendering';
 import HoverBox from './components/HoverBoxEventHandling';
 import InputFieldEventHandling from './components/InputFieldEventHandling';
+import Message from './components/MessageDynamicRendering';
 import NameFormUseState from './components/NameFormUseState';
 import TaskListUseState from './components/TaskListUseState';
 import TemperatureConverterUseState from './components/TemperatureConverterUseState';
@@ -20,6 +21,7 @@ const element = (
     <Form/>
     <HoverBox/>
     <Greeting/>
+    <Message/>
   </h1>
 )
 

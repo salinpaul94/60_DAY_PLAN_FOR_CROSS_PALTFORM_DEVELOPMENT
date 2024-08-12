@@ -12,6 +12,7 @@ import TemperatureConverterUseState from './components/TemperatureConverterUseSt
 import Notification from './components/NotificationConditionalRendering';
 import UserProfile from './components/UserProfileConditionalRendering';
 import NumberList from './components/NumberList';
+import TodoList from './components/TodoList';
 
 const element = (
   <h1>
@@ -28,6 +29,7 @@ const element = (
     <Notification/>
     <UserProfile/>
     <NumberList numbers={[1, 2]}/>
+    <TodoList todos={[{id: 1, text: "buy mango"}, {id: 2, text: "go to sylicon"}]}/>
   </h1>
 )
 

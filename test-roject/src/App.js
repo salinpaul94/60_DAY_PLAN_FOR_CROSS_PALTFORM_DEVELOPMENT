@@ -1,6 +1,7 @@
 import './App.css';
 import ColorChangeUseState from './components/ColorChangeUseStage';
 import NameFormUseState from './components/NameFormUseState';
+import TaskListUseState from './components/TaskListUseState';
 import TemperatureConverterUseState from './components/TemperatureConverterUseState';
 
 const element = (
@@ -8,6 +9,7 @@ const element = (
     <NameFormUseState/>
     <ColorChangeUseState/>
     <TemperatureConverterUseState/>
+    <TaskListUseState/>
   </h1>
 )
 

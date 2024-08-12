@@ -11,6 +11,7 @@ import TaskListUseState from './components/TaskListUseState';
 import TemperatureConverterUseState from './components/TemperatureConverterUseState';
 import Notification from './components/NotificationConditionalRendering';
 import UserProfile from './components/UserProfileConditionalRendering';
+import NumberList from './components/NumberList';
 
 const element = (
   <h1>
@@ -26,6 +27,7 @@ const element = (
     <Message/>
     <Notification/>
     <UserProfile/>
+    <NumberList numbers={[1, 2]}/>
   </h1>
 )
 

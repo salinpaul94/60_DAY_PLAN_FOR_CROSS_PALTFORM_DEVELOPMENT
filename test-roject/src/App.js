@@ -9,6 +9,7 @@ import Message from './components/MessageDynamicRendering';
 import NameFormUseState from './components/NameFormUseState';
 import TaskListUseState from './components/TaskListUseState';
 import TemperatureConverterUseState from './components/TemperatureConverterUseState';
+import Notification from './components/NotificationConditionalRendering';
 
 const element = (
   <h1>
@@ -22,6 +23,7 @@ const element = (
     <HoverBox/>
     <Greeting/>
     <Message/>
+    <Notification/>
   </h1>
 )
 

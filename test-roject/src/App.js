@@ -10,6 +10,7 @@ import NameFormUseState from './components/NameFormUseState';
 import TaskListUseState from './components/TaskListUseState';
 import TemperatureConverterUseState from './components/TemperatureConverterUseState';
 import Notification from './components/NotificationConditionalRendering';
+import UserProfile from './components/UserProfileConditionalRendering';
 
 const element = (
   <h1>
@@ -24,6 +25,7 @@ const element = (
     <Greeting/>
     <Message/>
     <Notification/>
+    <UserProfile/>
   </h1>
 )
 

@@ -2,6 +2,7 @@ import './App.css';
 import Button from './components/ButtonEventHandling';
 import ColorChangeUseState from './components/ColorChangeUseStage';
 import Form from './components/FormEventHandling';
+import Greeting from './components/GreetingDynamicRendering';
 import HoverBox from './components/HoverBoxEventHandling';
 import InputFieldEventHandling from './components/InputFieldEventHandling';
 import NameFormUseState from './components/NameFormUseState';
@@ -18,6 +19,7 @@ const element = (
     <InputFieldEventHandling/>
     <Form/>
     <HoverBox/>
+    <Greeting/>
   </h1>
 )
 

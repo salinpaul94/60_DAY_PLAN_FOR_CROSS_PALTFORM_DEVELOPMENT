@@ -18,6 +18,7 @@ import ContactList from './components/ConactList';
 import Timer from './components/TimerComponent';
 import Timer2 from './components/Timer2Component';
 import CounterHooks from './components/CounterHooks';
+import FetchDataHooks from './components/FetchDataHooks';
 
 const element = (
   <h1>
@@ -40,6 +41,7 @@ const element = (
     <Timer initialSeconds={11}/>
     <Timer2/>
     <CounterHooks/>
+    <FetchDataHooks/>
   </h1>
 )
 

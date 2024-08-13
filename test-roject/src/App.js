@@ -1,4 +1,5 @@
 import './App.css';
+import AppContextApiTask5 from './componentsDay5/AppContextApiTask5';
 import AppHooks from './componentsDay5/AppHooks';
 import Counter from './componentsDay5/Counter'
 import CounterUseEffectTask3 from './componentsDay5/CounterUseEffectTask3';
@@ -18,6 +19,7 @@ const element = (
     <WindowWidthUseEffectTask3/>
     <RandomJokeTask4/>
     <MouseTrackerTask4/>
+    <AppContextApiTask5/>
   </h1>
 )
 

@@ -13,4 +13,18 @@ function TimerUseEffect() {
   return <div>Seconds: {seconds}</div>;
 }
 
-export default TimerUseEffect;
+
+function AppUseEffect() {
+  const [showTimer, setShowTimer] = useState(true);
+
+  return (
+    <div>
+      <button onClick={() => setShowTimer(!showTimer)}>
+        {showTimer ? 'Hide Timer' : 'Show Timer'}
+      </button>
+      {showTimer && <TimerUseEffect />}
+    </div>
+  );
+}
+
+export default AppUseEffect;

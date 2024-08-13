@@ -1,8 +1,9 @@
 import './App.css';
+import Counter from './componentsDay5/Counter'
 
 const element = (
   <h1>
-    Test
+    <Counter/>
   </h1>
 )
 

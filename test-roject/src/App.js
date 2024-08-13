@@ -16,6 +16,8 @@ import TodoList from './components/TodoList';
 import FruitList from './components/FruitList';
 import ContactList from './components/ConactList';
 import Timer from './components/TimerComponent';
+import Timer2 from './components/Timer2Component';
+import CounterHooks from './components/CounterHooks';
 
 const element = (
   <h1>
@@ -36,6 +38,8 @@ const element = (
     <FruitList/>
     <ContactList/>
     <Timer initialSeconds={11}/>
+    <Timer2/>
+    <CounterHooks/>
   </h1>
 )
 

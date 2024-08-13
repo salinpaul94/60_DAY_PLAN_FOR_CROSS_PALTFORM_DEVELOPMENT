@@ -4,10 +4,11 @@ class Timer extends Component {
   constructor(props) {
     super(props);
     this.state = { seconds: props.initialSeconds || 0  };
+    this.timerTick = 1;
   }
-
+  
   componentDidMount() {
-    this.interval = setInterval(() => this.tick(), 1000);
+    this.interval = setInterval(() => this.tick(), this.timerTick * 1000);
   }
 
   componentWillUnmount() {
@@ -16,7 +17,7 @@ class Timer extends Component {
 
   tick() {
     this.setState((state) => ({
-      seconds: state.seconds + 1
+      seconds: state.seconds + this.timerTick
     }));
   }
 

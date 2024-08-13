@@ -15,6 +15,7 @@ import NumberList from './components/NumberList';
 import TodoList from './components/TodoList';
 import FruitList from './components/FruitList';
 import ContactList from './components/ConactList';
+import Timer from './components/TimerComponent';
 
 const element = (
   <h1>
@@ -34,6 +35,7 @@ const element = (
     <TodoList todos={[{id: 1, text: "buy mango"}, {id: 2, text: "go to sylicon"}]}/>
     <FruitList/>
     <ContactList/>
+    <Timer initialSeconds={11}/>
   </h1>
 )
 

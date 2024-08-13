@@ -19,6 +19,7 @@ import Timer from './components/TimerComponent';
 import Timer2 from './components/Timer2Component';
 import CounterHooks from './components/CounterHooks';
 import FetchDataHooks from './components/FetchDataHooks';
+import TodoApp from './components/TodoAppDay4Project';
 
 const element = (
   <h1>
@@ -42,6 +43,7 @@ const element = (
     <Timer2/>
     <CounterHooks/>
     <FetchDataHooks/>
+    <TodoApp/>
   </h1>
 )
 

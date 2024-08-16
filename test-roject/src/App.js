@@ -2,6 +2,7 @@ import './App.css';
 import AppContextApiTask5 from './componentsDay5/AppContextApiTask5';
 import AppContextApiTask6Example1 from './componentsDay5/AppContextApiTask5Example1';
 import AppContextApiTask5Example2 from './componentsDay5/AppContextApiTask5Example2';
+import AppContextApiTask6Example2 from './componentsDay5/AppContextTask6Example2';
 import AppHooks from './componentsDay5/AppHooks';
 import Counter from './componentsDay5/Counter'
 import CounterUseEffectTask3 from './componentsDay5/CounterUseEffectTask3';
@@ -24,6 +25,7 @@ const element = (
     <AppContextApiTask5/>
     <AppContextApiTask5Example2/>
     <AppContextApiTask6Example1/>
+    <AppContextApiTask6Example2/>
   </h1>
 )
 

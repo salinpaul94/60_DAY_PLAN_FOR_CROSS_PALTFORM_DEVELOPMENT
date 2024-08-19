@@ -30,6 +30,7 @@ const element = (
     <AppContextApiTask6Example2/>
     <AppContextApiTask7Example1/>
     <AppContextApiTask7Example2/>
+    <DataFetcherUseEffect/>
   </h1>
 )
 

@@ -11,6 +11,7 @@ import CounterUseEffectTask3 from './componentsDay5/CounterUseEffectTask3';
 import DataFetcherUseEffect from './componentsDay5/DataFetcherUseEffect';
 import MouseTrackerTask4 from './componentsDay5/MouseTrackerTask4';
 import RandomJokeTask4 from './componentsDay5/RandomJokeTask4';
+import TextInputTask9Exaple2 from './componentsDay5/TextInputTask9Example2';
 import TimerTask9Example1 from './componentsDay5/TimerTask9Example1';
 import AppUseEffect from './componentsDay5/TimerUseEffect';
 import WindowSizeTask8Example2 from './componentsDay5/WindowSizeTask8Example2';
@@ -35,6 +36,7 @@ const element = (
     <DataFetcherUseEffect/>
     <WindowSizeTask8Example2/>
     <TimerTask9Example1/>
+    <TextInputTask9Exaple2/>
   </h1>
 )
 

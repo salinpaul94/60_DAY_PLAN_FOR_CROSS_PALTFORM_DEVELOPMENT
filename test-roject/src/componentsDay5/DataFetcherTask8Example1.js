@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
 function useFetch(url) {
-  cont [data, setData] = useState(null);
-  cont [loading, setLoading] = useState(true);
+  const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {

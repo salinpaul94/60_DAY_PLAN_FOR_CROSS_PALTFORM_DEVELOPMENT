@@ -12,6 +12,7 @@ import DataFetcherUseEffect from './componentsDay5/DataFetcherUseEffect';
 import MouseTrackerTask4 from './componentsDay5/MouseTrackerTask4';
 import RandomJokeTask4 from './componentsDay5/RandomJokeTask4';
 import AppUseEffect from './componentsDay5/TimerUseEffect';
+import WindowSizeTask8Example2 from './componentsDay5/WindowSizeTask8Example2';
 import WindowWidthUseEffectTask3 from './componentsDay5/WindowWidthUseEffectTask3';
 
 const element = (
@@ -31,6 +32,7 @@ const element = (
     <AppContextApiTask7Example1/>
     <AppContextApiTask7Example2/>
     <DataFetcherUseEffect/>
+    <WindowSizeTask8Example2/>
   </h1>
 )
 

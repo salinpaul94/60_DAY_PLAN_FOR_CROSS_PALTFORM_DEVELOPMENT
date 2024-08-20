@@ -1,4 +1,5 @@
 import './App.css';
+import AppContextApiTask11Example2 from './componentsDay5/AppContextApiTask11Example2';
 import AppContextApiTask5 from './componentsDay5/AppContextApiTask5';
 import AppContextApiTask6Example1 from './componentsDay5/AppContextApiTask5Example1';
 import AppContextApiTask5Example2 from './componentsDay5/AppContextApiTask5Example2';
@@ -43,6 +44,7 @@ const element = (
     <AppTask10Example1/>
     <AppTask10Example2/>
     <AppContextApiTask11Example1/>
+    <AppContextApiTask11Example2/>
   </h1>
 )
 

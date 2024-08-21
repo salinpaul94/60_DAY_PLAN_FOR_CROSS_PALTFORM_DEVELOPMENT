@@ -1,5 +1,5 @@
 import './App.css';
-import UseNavigateTask18Example1 from './componentsDay5/UseNavigateTask18Example1';
+import RouterParameterTask18Example2 from './componentsDay5/RouterParameterTask18Example2';
 
 function App() {
   return (
@@ -11,7 +11,8 @@ function App() {
     // <RouterTask16Example2/>
     // <RouterTask17Example1/>
     // <RouterParameterTask17Example2/>
-    <UseNavigateTask18Example1/>
+    // <UseNavigateTask18Example1/>
+    <RouterParameterTask18Example2/>
   );
 }
 

@@ -8,6 +8,7 @@ import AppContextApiTask7Example2 from './componentsDay5/AppContextApiTask7Examp
 import AppContextApiTask6Example2 from './componentsDay5/AppContextTask6Example2';
 import AppHOCTask12Example2 from './componentsDay5/AppHOCTask12Example2';
 import AppHOCTask13Example1 from './componentsDay5/AppHOCTask13Example1';
+import AppHOCTask13Example2 from './componentsDay5/AppHOCTask13Example2';
 import AppHooks from './componentsDay5/AppHooks';
 import AppTask10Example1 from './componentsDay5/AppTask10Example1';
 import AppTask10Example2 from './componentsDay5/AppTask10Example2';
@@ -51,6 +52,7 @@ const element = (
     <AppHOCTask12Example1/>
     <AppHOCTask12Example2/>
     <AppHOCTask13Example1/>
+    <AppHOCTask13Example2/>
   </h1>
 )
 

@@ -22,7 +22,7 @@ function RouterTask14Example2() {
           </ul>
         </nav>
         <Routes>
-          <Route exact path="/" element={<Login/>} />
+          <Route path="/" element={<Login/>} />
           <Route
             path="/dashboard"
             element={isAuthenticated ? <Dashboard/> : <Navigate to="/"/>}

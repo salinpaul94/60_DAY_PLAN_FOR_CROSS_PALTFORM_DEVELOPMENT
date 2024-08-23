@@ -1,5 +1,5 @@
 import './App.css';
-import RouterPracticeTask19Example2 from './componentsDay5/RoutesPracticeTask19Example2';
+import RoutesPracticeTask20 from './componentsDay5/RoutesPracticeTask20';
 
 function App() {
   return (
@@ -14,7 +14,8 @@ function App() {
     // <UseNavigateTask18Example1/>
     // <RouterParameterTask18Example2/>
     // <RoutesPracticeTask19Example1/>
-    <RouterPracticeTask19Example2/>
+    // <RouterPracticeTask19Example2/>
+    <RoutesPracticeTask20/>
   );
 }
 

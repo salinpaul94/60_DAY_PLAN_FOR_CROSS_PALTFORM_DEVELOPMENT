@@ -1,9 +1,10 @@
 import './App.css';
-import EmailFormTask2Example1 from './Day6Components/Task2Example1';
+import FeedBackFormTask2Example2 from './Day6Components/Task2Example2';
 
 function App() {
   return (
-    <EmailFormTask2Example1/>
+    // <EmailFormTask2Example1/>
+    <FeedBackFormTask2Example2/>
   );
 }
 

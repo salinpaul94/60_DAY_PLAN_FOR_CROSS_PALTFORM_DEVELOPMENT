@@ -1,5 +1,5 @@
 import './App.css';
-import ParentTask6Example1 from './Day6Components/Task6Example1';
+import TemperatureConverterTask6Example2 from './Day6Components/Task6Example2';
 
 function App() {
   return (
@@ -11,7 +11,8 @@ function App() {
     // <Task4Example2PasswordForm/>
     // <Task5Example1RegistrationFrorm/>
     // <Task5Example2ContactForm/>
-    <ParentTask6Example1/>
+    // <ParentTask6Example1/>
+    <TemperatureConverterTask6Example2/>
   );
 }
 

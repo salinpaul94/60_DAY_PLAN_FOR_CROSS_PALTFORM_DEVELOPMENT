@@ -1,5 +1,5 @@
 import './App.css';
-import Task17Example1 from './Day6Components/Task17Example1';
+import Task17Example2 from './Day6Components/Task17Example2';
 
 function App() {
   return (
@@ -33,7 +33,8 @@ function App() {
     // <Task15Example2/>
     // <Task16Example1/>
     // <Task16Example2/>
-    <Task17Example1/>
+    // <Task17Example1/>
+    <Task17Example2/>
   );
 }
 

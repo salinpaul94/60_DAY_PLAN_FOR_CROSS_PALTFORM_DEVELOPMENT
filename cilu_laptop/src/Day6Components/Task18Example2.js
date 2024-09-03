@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class ErrorBoundary extends Component {
   constructor( props ) {
     super( props );
-    this.state = { hasError: false };
+    this.state = { hasError: false }
   }
 
   static getDerivedStateFromError( error ) {
@@ -11,13 +11,12 @@ class ErrorBoundary extends Component {
   }
 
   componentDidCatch( error, errorInfo ) {
-    console.log( 'Error: ', error, 'Info: ', errorInfo );
-    console.log( 'hi' );
+    console.log('Error has occured: ', error, 'Find Error Info: ', errorInfo);
   }
 
   render() {
     if ( this.state.hasError ) {
-      return <h1>Something went Wrong.</h1>
+      return <h1>Something is up</h1>;
     }
     return this.props.children;
   }
@@ -28,12 +27,17 @@ function FaultyComponent() {
   // return <div>Faulty Component</div>;
 }
 
-function Task18Example1() {
+function SafeComponent() {
+  return <div>Safe Component</div>;
+}
+
+function Task18Example2() {
   return (
     <ErrorBoundary>
+      <SafeComponent />
       <FaultyComponent/>
     </ErrorBoundary>
   );
 }
 
-export default Task18Example1;
+export default Task18Example2;

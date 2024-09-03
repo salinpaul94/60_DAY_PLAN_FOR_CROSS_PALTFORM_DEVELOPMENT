@@ -1,6 +1,7 @@
 import React, { useState, useCallback } from 'react';
 
 function Button({ onClick, children }) {
+  console.log("button rendered");
   return <button onClick={ onClick }>{ children }</button>;
 }
 

@@ -54,15 +54,18 @@ for day 2 of studying create-expo-app, tasks listed between
 Review documentation for handling state with `useState`.<br>
 Implement a simple state in your component (e.g., toggle button).<br>
 """, for each task give me 2 paragraphs explaining the topic, 2 online resources to refer, 2 examples to practice, 2 paragraph explaining each example, 2 online resources to refer, also give me the code that i should use to practice and give the expected output
+DONE
 
 for day 2 of studying create-expo-app, tasks listed between
 """
 Add a basic `TextInput` component.<br>
 Handle text input and display input dynamically on the screen.<br>
 """, for each task give me 2 paragraphs explaining the topic, 2 online resources to refer, 2 examples to practice, 2 paragraph explaining each example, 2 online resources to refer, also give me the code that i should use to practice and give the expected output
+DONE
 
 for day 2 of studying create-expo-app, tasks listed between
 """
 Experiment with fonts and typography in Expo.<br>
 Save all changes and test in Expo Go.<br>
 """, for each task give me 2 paragraphs explaining the topic, 2 online resources to refer, 2 examples to practice, 2 paragraph explaining each example, 2 online resources to refer, also give me the code that i should use to practice and give the expected output
+DONE

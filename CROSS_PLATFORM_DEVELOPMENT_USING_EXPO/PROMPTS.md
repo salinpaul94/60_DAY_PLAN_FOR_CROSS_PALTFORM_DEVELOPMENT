@@ -1,0 +1,7 @@
+- all the output should follow github markdown format
+- all results should be related developer using ubuntu operating system
+- How to master Cross-Platform Development using create-expo-app
+- give me a 30 day study paln to master the above development
+- for the 30 day study plan give me 20 tasks each day to complete, from day 1 to day 5, give me only bulitin points don't expand the points
+- for the 30 day study plan give me 20 tasks each day to complete, from day 6 to day 15, give me only bulitine points don't expand the points
+- for the 30 day study plan give me 20 tasks each day to complete, from day 16 to day 30, give me only bulletin points don't expand the points

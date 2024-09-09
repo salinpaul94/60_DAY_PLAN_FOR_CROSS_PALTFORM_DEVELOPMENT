@@ -41,3 +41,7 @@ USE THIS LINK FOR SETTING UP DEVELOPMENT ENVIRONMENT FOR WINDOWS https://www.you
 
 # Setting up new react native app
   - `npx create-expo-app@latest`
+  - `set NODE_TLS_REJECT_UNAUTHORIZED=0`
+  - `npm run android`
+  - `npm run ios` # you need to use macOS to build the iOS project - use the Expo app if you need to do iOS development without a Mac
+  - `npm run web`

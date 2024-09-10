@@ -1,8 +1,25 @@
-import React from 'react'
-import GreetingTask3Example2 from '@/components/Day2Task3/GreetingTask3Example2'
+import React from 'react';
+import { View, Text, StyleSheet } from 'react-native';
 
 const index = () => {
-  return <GreetingTask3Example2 name={ "React Developer"} />;
+  return (
+    <View style={ styles.container }>
+      <Text style={ styles.text }>Styled View and Test</Text>
+    </View>
+  );
 };
+
+const styles = StyleSheet.create({
+  container: {
+    padding: 20,
+    margin: 10,
+    backgroundColor: '#f0f0f0',
+  },
+  text: {
+    fontSize: 18,
+    color: 'blue',
+    textAlign: 'center',
+  },
+});
 
 export default index;

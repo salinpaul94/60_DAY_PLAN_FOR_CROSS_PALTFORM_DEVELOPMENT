@@ -1,5 +1,5 @@
 import React from 'react'
-import Greeting from '@/components/Day1Task3/Greeting'
+import Greeting from '@/components/Day2Task3/GreetingTask3Example1'
 
 const index = () => {
   return <Greeting />;

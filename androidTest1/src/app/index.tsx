@@ -20,14 +20,16 @@ const App = () => {
 
 const styles = StyleSheet.create({
   container: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
     padding: 20,
+    gap: 20
   },
   column: {
     backgroundColor: '#FFC107',
     padding: 30,
-    width: '45%',
+    width: '70%',
     justifyContent: 'center',
     alignItems: 'center'
   },
